@@ -6,7 +6,7 @@ from flask import (Flask, g, redirect, render_template, request, session, url_fo
 LISTEN_ALL = "0.0.0.0"
 FLASK_IP = LISTEN_ALL
 FLASK_PORT = 81
-FLASK_DEBUG = True
+FLASK_DEBUG = False
 
 app = Flask(__name__)
 app.secret_key = 'geheimekey'
